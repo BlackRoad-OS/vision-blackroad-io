@@ -1,10 +1,32 @@
 version: 2
 updates:
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  # npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 10
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  # Python
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  # Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
     open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-      - "automerge"
