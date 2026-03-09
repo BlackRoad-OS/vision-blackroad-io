@@ -3,14 +3,18 @@
 **[THIS]+[PLACEHOLDER]+[UPGRADES]**
 
 ## Current Status
-- 🚧 Placeholder deployed
-- ✅ Beautiful coming soon page
+- 🟢 Production-grade README deployed
+- ✅ Brand colors corrected (forbidden colors removed)
+- ✅ OAuth 2.0 authentication documented ([OAUTH.md](OAUTH.md))
+- ✅ Converter API access gate enforced in [CONTRIBUTING.md](CONTRIBUTING.md)
+- ✅ Proprietary notices updated
+- 🚧 Core vision analysis pipeline (in development)
 - ✅ Email notification signup
-- ✅ Brand colors and animations
+- ✅ Cloudflare deployment pipeline
 
 ## Priority 1 Features (Core Functionality)
 1. [ ] Build main dashboard/interface
-2. [ ] Add authentication
+2. [x] Add authentication (OAuth 2.0 — see [OAUTH.md](OAUTH.md))
 3. [ ] Create basic CRUD operations
 4. [ ] Add search functionality
 5. [ ] Implement filtering
@@ -31,15 +35,15 @@
 
 ## Priority 4 Features (Enterprise)
 16. [ ] Team collaboration
-17. [ ] Role-based access control
+17. [x] Role-based access control (Converter API gate)
 18. [ ] Audit logging
-19. [ ] SSO integration
+19. [x] SSO integration (OAuth 2.0 foundation)
 20. [ ] Custom branding
 
 ## Future Ideas (Infinite Backlog)
 - Analytics dashboard
-- AI-powered insights
-- Third-party integrations
+- AI-powered insights (BlackRoad-only, no third-party AI routing)
+- Third-party integrations (via Converter API only)
 - Plugin system
 - Template marketplace
 - Advanced customization

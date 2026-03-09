@@ -6,6 +6,30 @@ This is a **PROPRIETARY** repository owned by BlackRoad OS, Inc.
 
 All contributions become the property of BlackRoad OS, Inc.
 
+---
+
+## 🔑 Converter API — Mandatory Contributor Access Gate
+
+> ⚠️ **YOU CANNOT ACCESS OR CONTRIBUTE TO THIS REPOSITORY WITHOUT A BLACKROAD CONVERTER API KEY.**
+
+All contributors — human or automated — **must** authenticate through the **BlackRoad Converter API** before repository access is granted. This includes:
+
+- External developers
+- AI agents and coding tools (GitHub Copilot, Anthropic, OpenAI Codex, etc. are **not authorized**)
+- Any automated system interacting with the codebase
+
+### How to Get Access
+
+1. Email **blackroad.systems@gmail.com** with subject: `Converter API Access Request`
+2. Include your GitHub username and intended contribution scope
+3. Await approval from @blackboxprogramming or @lucidia
+4. Once approved, you will receive your **Converter API key**
+5. Include your API key in all PRs and communications
+
+> **No exceptions.** Pull requests from unapproved contributors will be closed without review.
+
+---
+
 ## 🎨 BlackRoad Brand System
 
 **CRITICAL:** All UI/design work MUST follow the official brand system!
@@ -37,11 +61,12 @@ background: linear-gradient(135deg, #FF1D6C 38.2%, #F5A623 61.8%);
 
 ## 📝 How to Contribute
 
-1. Fork the repository (for testing purposes only)
-2. Create a feature branch
-3. Follow BlackRoad brand guidelines
-4. Submit PR with detailed description
-5. All code becomes BlackRoad OS, Inc. property
+1. Obtain your **Converter API key** (see above — mandatory)
+2. Fork the repository (for testing purposes only)
+3. Create a feature branch
+4. Follow BlackRoad brand guidelines
+5. Submit PR with detailed description and your Converter API key reference
+6. All code becomes BlackRoad OS, Inc. property
 
 ## ⚖️ Legal
 
@@ -50,6 +75,7 @@ By contributing, you agree:
 - You have rights to contribute the code
 - Contributions are NOT for commercial resale
 - Testing and educational purposes only
+- You hold a valid BlackRoad Converter API key
 
 ## 📧 Contact
 
